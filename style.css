@@ -226,7 +226,7 @@ hr {
 	border-radius: 15px;
 	padding: 20px;
 }
-.testimonial img {
+.testimonial .user {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -237,8 +237,16 @@ hr {
 	margin: 10px 0;
 }
 .stars {
-	color: yellow;
 	margin-bottom: 10px;
+	display: inline-block;
+	align-items: center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.staricon {
+	width: 20px;
+
+	height: 20px;
 }
 @media screen and (max-width: 600px) {
 	.col {
@@ -310,17 +318,18 @@ h2 {
 	color: #999;
 }
 
-.socials a {
-	background: #364a62;
-	width: 40px;
-	height: 40px;
-	display: inline-block;
-	margin-right: 10px;
+.socialIcon {
+	width: 30px;
+	height: 30px;
+	align-self: center;
 }
-.socials a i {
-	color: #e7f2f4;
-	padding: 10px 12px;
-	font-size: 20px;
+.socialmediaicon {
+	text-align: center;
+	height: 35px;
+	border-radius: 5px;
+	width: 35px;
+	background-color: darkcyan;
+	margin-right: 10px;
 }
 @media screen and (min-width: 600px) {
 	.footer-right > * {
@@ -473,14 +482,17 @@ textarea.input {
 }
 
 .icon {
-	width: 28px;
-	height: 25px;
+	width: 16px;
+	height: 16px;
 	margin-right: 0.7rem;
 	color: #06a1b6;
 }
-
+.socials {
+	padding: 10px;
+	display: flex;
+}
 .social-media {
-	padding: 2rem 0 0 0;
+	padding: 2rem 1 0 0;
 }
 
 .social-media p {
@@ -495,6 +507,7 @@ textarea.input {
 .social-icons a {
 	width: 35px;
 	height: 35px;
+	padding: 7px;
 	border-radius: 5px;
 	background-color: #2cb0c2;
 	color: #fff;
