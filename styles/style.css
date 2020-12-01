@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -55,10 +57,13 @@ nav ul li a {
 }
 label #sign-one,
 label #sign-two {
-	font-size: 30px;
+	width: 30px;
+	height: 30px;
+	font-size: 5px;
+	padding-top: 5px;
 	color: #333;
 	float: right;
-	line-height: 50px;
+	line-height: 30px;
 	margin-right: 30px;
 	cursor: pointer;
 	display: none;
