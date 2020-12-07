@@ -368,7 +368,7 @@ h2 {
 	justify-content: center;
 }
 
-.form {
+.form-big {
 	width: 100%;
 	max-width: 820px;
 	background-color: #fff;
@@ -420,7 +420,35 @@ form {
 .input-container {
 	position: relative;
 	margin: 1rem 0;
+	padding: 5px;
+	/* background-color: white; */
+}
+
+.input-container.success input {
+	border-color: #2ecc71;
+	border-width: 3px;
+}
+.input-container.error input {
+	border-color: #e74c3c;
+	border-width: 3px;
+}
+
+.input-container input {
 	background-color: white;
+	padding-bottom: 7px;
+}
+.input-container.error small {
+	visibility: visible;
+	color: #e74c3c;
+	font-size: 16px;
+}
+
+.input-container small {
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	left: 20px;
 }
 
 .input {
@@ -442,6 +470,7 @@ textarea.input {
 	min-height: 150px;
 	border-radius: 22px;
 	resize: none;
+	background-color: white;
 	overflow-y: auto;
 }
 
@@ -459,8 +488,8 @@ textarea.input {
 }
 
 .btn:hover {
-	background-color: transparent;
-	color: #fff;
+	background-color: white;
+	color: black;
 }
 
 .contact-info {
@@ -561,7 +590,7 @@ textarea.input {
 }
 
 @media (max-width: 850px) {
-	.form {
+	.form-big {
 		grid-template-columns: 1fr;
 	}
 

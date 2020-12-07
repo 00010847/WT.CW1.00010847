@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles/style.css">
-
-
+    <script src="javascript/contact.js"></script>
 </head>
 <body>
+  
     <header>
         <nav>
             <input type="checkbox" name="" id="res-menu">
@@ -27,9 +27,11 @@
             </ul>
         </nav>
     </header>
+
+
     <div class="contact-container">
         <span class="big-circle"></span>
-        <div class="form">
+        <div class="form-big">
           <div class="contact-info">
             <h3 class="title">Let's get in touch</h3>
             <p class="text">
@@ -72,24 +74,30 @@
           </div>
   
           <div class="contact-form">
-            <form action="index.html" autocomplete="off">
+            <form  id="form" >
               <h3 class="title">Contact us</h3>
               <div class="input-container">
-                <input type="text" placeholder="Name" name="name" class="input" />
-            
-              </div>
-              <div class="input-container">
-                <input type="email" name="email" placeholder="Email Address" class="input" />
-              
-              </div>
-              <div class="input-container">
-                <input type="tel" name="phone" placeholder="Phone number" class="input" />
+                <input type="text" placeholder="Name" class="input" id='username'/>
              
+                <small>Error message</small>
               </div>
+
+              <div class="input-container">
+                <input type="email" name="email" placeholder="Email Address" class="input" id="email"/>
+               
+                <small>Error message</small>
+              </div>
+
+              <div class="input-container">
+                <input type="tel" name="phone" placeholder="Phone number" class="input" id="phone"/>
+              
+                <small>Error message</small>
+              </div>
+
               <div class="input-container textarea">
-                <textarea name="message" placeholder="Tell us about your idea" class="input"></textarea>
+                <textarea name="message" placeholder="Tell us about your idea" class="input" id="text"></textarea>
               </div>
-              <input type="submit" value="Send" class="btn" />
+              <button type="button" class="btn">Submit</button>
             </form>
           </div>
         </div>
