@@ -195,6 +195,9 @@ footer h2 {
 	font-weight: 600;
 	font-size: 17px;
 }
+.footer-left p {
+	font-size: 22px;
+}
 .footer ul {
 	list-style: none;
 	padding-left: 0;
@@ -220,6 +223,7 @@ footer h2 {
 	text-align: center;
 	color: #999;
 	padding-top: 40px;
+	font-size: 25px;
 }
 .footer-left p {
 	padding-right: 20%;

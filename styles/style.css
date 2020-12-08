@@ -366,10 +366,12 @@ h2 {
 	text-align: center;
 	color: #999;
 	padding-top: 50px;
+	font-size: 25px;
 }
 .footer-left p {
 	padding-right: 20%;
 	color: #999;
+	font-size: 22px;
 }
 
 .socialIcon {
@@ -508,6 +510,9 @@ form {
 	left: 20px;
 }
 
+.input-container .btn {
+	outline: none;
+}
 .input {
 	width: 100%;
 	outline: none;
@@ -535,7 +540,7 @@ form {
 
 .btn {
 	padding: 0.6rem 1.3rem;
-
+	outline: none;
 	background-color: #28df99;
 	font-size: 20px;
 	border: none;
@@ -565,6 +570,8 @@ form {
 .text {
 	color: #333;
 	margin: 1.5rem 0 2rem 0;
+	line-height: 23px;
+	font-size: 18px;
 }
 
 .information {

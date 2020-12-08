@@ -204,10 +204,12 @@ footer h2 {
 	text-align: center;
 	color: #999;
 	padding-top: 40px;
+	font-size: 25px;
 }
 .footer-left p {
 	padding-right: 20%;
 	color: #999;
+	font-size: 22px;
 }
 .socials {
 	padding: 10px;

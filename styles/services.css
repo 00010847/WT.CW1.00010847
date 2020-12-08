@@ -142,7 +142,7 @@ label #sign-two {
 .wrapper .box .front-face {
 	background: #f1f3f8;
 	border-radius: 15px;
-	height: 300px;
+	height: 400px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -175,9 +175,9 @@ label #sign-two {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	height: 300px;
+	height: 380px;
 	width: 100%;
-	padding: 30px;
+	padding: 20px;
 	color: #373a40;
 	opacity: 0;
 	transform-style: preserve-3d;
@@ -249,10 +249,12 @@ footer h2 {
 	text-align: center;
 	color: #999;
 	padding-top: 40px;
+	font-size: 25px;
 }
 .footer-left p {
 	padding-right: 20%;
 	color: #999;
+	font-size: 22px;
 }
 .socials {
 	padding: 10px;
