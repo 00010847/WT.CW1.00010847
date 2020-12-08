@@ -16,6 +16,8 @@ header {
 }
 .logo {
 	padding-top: 12px;
+	color: #373a40;
+	font-size: 24px;
 }
 nav {
 	height: 70px;
